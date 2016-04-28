@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical">
+
+<com.ab.view.pullview.AbPullToRefreshView
+    android:id="@+id/mPullRefreshView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:layout_weight="1">
+
+    <ListView
+        android:id="@+id/mListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="0dip"
+        android:cacheColorHint="#00000000"
+        android:divider="@color/gray_white"
+        android:dividerHeight="10dip"
+        android:fillViewport="true"
+        android:listSelector="@drawable/list_selector"
+        android:drawSelectorOnTop="false"/>
+
+    <!--当设置为true，selector 将绘制在被点击item的上面，反之绘制在被点击item的下面，默认为false。-->
+
+    <!--android:drawSelectorOnTop="true" 点击某一条记录，颜色会显示在最上面，记录上的文字被遮住，所以点击文字不放，文字就看不到-->
+
+    <!--android:drawSelectorOnTop="false"点击某条记录不放，颜色会在记录的后面，成为背景色，但是记录内容的文字是可见的-->
+
+</com.ab.view.pullview.AbPullToRefreshView>
+
+    <LinearLayout
+        android:id="@+id/lay_add_project"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/contact_add"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:src="@drawable/button_selector_add"
+            android:layout_weight="11"
+            android:layout_gravity="center_vertical" />
+        <TextView
+            android:id="@+id/button_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="添加人员"
+            android:layout_gravity="center"
+            android:textColor="@color/colorPrimary"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:makeramen="http://schemas.android.com/tools"
+    android:padding="5dip">
+
+    <RelativeLayout
+        android:id="@+id/itemsImage"
+        android:layout_width="80dip"
+        android:layout_height="80dip">
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/head"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_centerInParent="true"
+            android:scaleType="fitXY"
+            makeramen:corner_radius="100dip"
+            makeramen:border_width="2dip"
+            makeramen:border_color="#333333" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/dw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_toRightOf="@+id/itemsImage"
+        android:paddingRight="10dip"
+        android:paddingTop="5dip"
+        android:textColor="@color/gray_light"
+        android:textSize="16sp"
+        android:text="部门:"/>
+
+    <TextView
+        android:id="@+id/partment"
+        android:layout_alignBaseline="@+id/dw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_toRightOf="@+id/xm"
+        android:paddingTop="5dip"
+        android:textColor="@color/gray_dark"
+        android:textSize="18sp"
+        android:text="2222"/>
+
+    <TextView
+        android:id="@+id/xm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_toRightOf="@+id/itemsImage"
+        android:paddingRight="10dip"
+        android:textColor="@color/gray_light"
+        android:textSize="16sp"
+        android:layout_below="@+id/dw"
+        android:text="姓名:"/>
+
+
+    <TextView
+        android:id="@+id/user_name"
+        android:layout_alignBaseline="@+id/xm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_toRightOf="@+id/xm"
+        android:textColor="@color/gray_dark"
+        android:textSize="18sp"
+        android:layout_below="@+id/partment"
+        android:text="111111"/>
+
+
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:textColor="@color/gray_light"
+        android:textSize="16sp"
+        android:layout_below="@+id/xm"
+        android:layout_toRightOf="@+id/itemsImage"
+        android:paddingRight="10dip"
+        android:text="手机:"/>
+
+    <TextView
+        android:id="@+id/user_photo"
+        android:layout_alignBaseline="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_toRightOf="@+id/phone"
+        android:textColor="@color/gray_dark"
+        android:textSize="18sp"
+        android:maxLength="11"
+        android:text="2222222222"/>
+
+    <TextView
+        android:id="@+id/sfzh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/phone"
+        android:layout_gravity="center_vertical"
+        android:layout_toRightOf="@+id/itemsImage"
+        android:textColor="@color/gray_light"
+        android:textSize="16sp"
+        android:paddingRight="10dip"
+
+        android:text="证件:"/>
+
+
+    <TextView
+        android:id="@+id/user_id"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/sfzh"
+        android:layout_alignBaseline="@+id/sfzh"
+        android:paddingBottom="2dip"
+        android:textColor="@color/gray_dark"
+        android:textSize="18sp"
+        android:maxLength="18"
+        android:text="333333333333"/>
+
+</RelativeLayout>

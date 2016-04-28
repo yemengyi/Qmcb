@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:descendantFocusability="blocksDescendants"
+    android:padding="5dp" >
+
+
+    <TextView
+        android:id="@+id/child_title"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="@drawable/txt_click"
+        android:singleLine="false"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="40dp"
+        android:text="什么什么"
+        android:drawableRight="@drawable/right"
+        android:textColor="@color/gray"
+        android:textSize="16sp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:paddingTop="5dp"
+        android:gravity="center"
+        >
+
+        <TextView
+            android:id="@+id/btn202"
+            android:layout_width="60dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="5dp"
+            android:gravity="center"
+            android:background="@drawable/btn_red"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="勘查"
+            />
+        <TextView
+            android:id="@+id/btn203"
+            android:layout_width="60dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="5dp"
+            android:gravity="center"
+            android:background="@drawable/btn_red"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="开工"/>
+        <TextView
+            android:id="@+id/btn204"
+            android:layout_width="60dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="5dp"
+            android:gravity="center"
+            android:background="@drawable/btn_red"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="到岗"
+            android:focusable="false"/>
+        <TextView
+            android:id="@+id/btn205"
+            android:layout_width="60dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="5dp"
+            android:gravity="center"
+            android:background="@drawable/btn_red"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="督察"/>
+        <TextView
+            android:id="@+id/btn206"
+            android:layout_width="60dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="5dp"
+            android:gravity="center"
+            android:background="@drawable/btn_red"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="完工"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

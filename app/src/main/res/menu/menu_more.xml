@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/user_p"
+        android:icon="@drawable/ic_action_add"
+        android:showAsAction="never"
+        android:title="用户"/>
+    <item
+        android:id="@+id/write_p"
+        android:icon="@drawable/ic_action_camera"
+        android:showAsAction="never"
+        android:title="发布"/>
+
+</menu>

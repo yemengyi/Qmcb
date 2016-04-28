@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--Scroll 充满屏幕   android:fillViewport="true" -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:fillViewport="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+                <EditText
+                    android:layout_width="0dip"
+                    android:layout_height="0dip"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true" />
+
+                <!--<include-->
+                    <!--layout="@layout/space_view_title"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content" />-->
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginRight="10dip"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:id="@+id/r0"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            style="@style/TxtTitleGraySmall"
+                            android:layout_width="wrap_content"
+                            android:layout_height="55dp"
+                            android:gravity="center_vertical"
+                            android:text="项目名称:"
+                            android:textColor="@color/gray_light" />
+
+
+                        <TextView
+                            android:id="@+id/mc"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:minHeight="55dp"
+                            android:paddingLeft="80dp"
+                            android:drawableRight="@drawable/ic_action_document"
+                            android:enabled="true"
+                            android:gravity="left|center_vertical"
+                            android:textColor="@color/gray_dark"
+                            android:textColorHint="@color/gray_light"
+                            android:textSize="18sp"
+                            />
+
+
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dip"
+                        android:background="@drawable/list_divider" />
+
+
+                    <RelativeLayout
+                        android:id="@+id/r1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            style="@style/TxtTitleGraySmall"
+                            android:layout_width="wrap_content"
+                            android:layout_height="55dp"
+                            android:text="工作内容:"
+                            android:textColor="@color/gray_light" />
+
+
+                        <EditText
+                            android:id="@+id/nr"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:minHeight="55dp"
+                            android:paddingLeft="80dp"
+                            android:drawableRight="@drawable/ic_action_brush"
+                            android:enabled="true"
+                            android:gravity="left|center_vertical"
+                            android:inputType="textMultiLine"
+                            android:textColor="@color/gray_dark"
+                            android:textColorHint="@color/gray_light" />
+
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dip"
+                        android:background="@drawable/list_divider"
+                        android:focusable="false"
+                        android:focusableInTouchMode="false" />
+
+
+                    <RelativeLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/measureTimeText1"
+                            android:layout_width="fill_parent"
+                            android:layout_height="55dip"
+                            android:paddingLeft="80dp"
+                            android:clickable="true"
+                            android:drawableRight="@drawable/ic_action_document"
+                            android:gravity="left|center_vertical"
+                            android:singleLine="true"
+                            android:textColor="@color/gray_dark"
+                            android:textSize="18sp"
+                            android:background="@drawable/txt_click"
+                            />
+                        <TextView
+                            style="@style/TxtTitleGraySmall"
+                            android:layout_width="wrap_content"
+                            android:layout_height="55dp"
+                            android:text="开始时间:" />
+
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dip"
+                        android:background="@drawable/list_divider"
+                        android:focusable="false"
+                        android:focusableInTouchMode="false" />
+
+
+                    <RelativeLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+
+
+                        <TextView
+                            android:id="@+id/measureTimeText2"
+                            android:layout_width="fill_parent"
+                            android:layout_height="55dip"
+                            android:paddingLeft="80dp"
+                            android:clickable="true"
+                            android:drawableRight="@drawable/ic_action_document"
+                            android:gravity="left|center_vertical"
+                            android:singleLine="true"
+                            android:textColor="@color/gray_dark"
+                            android:textSize="18sp"
+                            android:background="@drawable/txt_click"
+                            />
+                        <TextView
+                            style="@style/TxtTitleGraySmall"
+                            android:layout_width="wrap_content"
+                            android:layout_height="55dp"
+                            android:text="结束时间:" />
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dip"
+                        android:background="@drawable/list_divider"
+                        android:focusable="false"
+                        android:focusableInTouchMode="false" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/dw"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:minHeight="55dp"
+                            android:paddingLeft="80dp"
+                            android:clickable="true"
+                            android:drawableRight="@drawable/ic_action_document"
+                            android:gravity="left|center_vertical"
+                            android:singleLine="false"
+                            android:textColor="@color/gray_dark"
+                            android:textColorHint="@color/gray_light"
+                            android:textSize="18sp"
+                            android:background="@drawable/txt_click"
+                            />
+
+                        <TextView
+                            style="@style/TxtTitleGraySmall"
+                            android:layout_width="wrap_content"
+                            android:layout_height="55dp"
+                            android:text="施工单位:" />
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dip"
+                        android:background="@drawable/list_divider"
+                        android:focusable="false"
+                        android:focusableInTouchMode="false" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            style="@style/TxtTitleGraySmall"
+                            android:layout_width="match_parent"
+                            android:layout_height="55dp"
+                            android:text="工作地点和工程负责人:"
+                            android:textColor="@color/gray_light" />
+
+                        <ListView
+                            android:id="@+id/dzList"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="20dp"
+                            android:divider="@drawable/list_divider"
+                            >
+
+                        </ListView>
+
+
+                        <EditText
+                            android:id="@+id/dz"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:background="@color/transparent"
+                            android:clickable="false"
+                            android:enabled="false"
+                            android:gravity="top|left"
+                            android:inputType="textMultiLine"
+                            android:lines="1"
+                            android:scrollbars="vertical"
+                            android:singleLine="false"
+                            android:text=""
+                            android:textColor="@color/gray_dark"
+                            android:textColorHint="@color/gray_light"
+                            android:textSize="18sp"
+                            android:visibility="gone" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dip"
+                        android:background="@drawable/list_divider"
+                        android:focusable="false"
+                        android:focusableInTouchMode="false" />
+
+                    <RelativeLayout
+                        android:id="@+id/layout_ry"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+
+                        <TextView
+                            android:id="@+id/ry"
+                            android:layout_width="match_parent"
+                            android:layout_height="55dp"
+                            android:paddingLeft="130dp"
+                            android:clickable="true"
+                            android:drawableRight="@drawable/ic_action_document"
+                            android:gravity="left|center_vertical"
+                            android:textColor="@color/gray_dark"
+                            android:textColorHint="@color/gray_light"
+                            android:textSize="18sp"
+                            android:background="@drawable/txt_click"
+                            />
+
+                        <TextView
+                            style="@style/TxtTitleGraySmall"
+                            android:layout_width="match_parent"
+                            android:layout_height="55dp"
+                            android:text="到岗到位人员:" />
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dip"
+                        android:background="@drawable/list_divider"
+                        android:focusable="false"
+                        android:focusableInTouchMode="false" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+
+                        <TextView
+                            android:id="@+id/xk_pid"
+                            android:layout_width="match_parent"
+                            android:layout_height="55dp"
+                            android:paddingLeft="130dp"
+                            android:clickable="true"
+                            android:drawableRight="@drawable/ic_action_document"
+                            android:gravity="left|center_vertical"
+                            android:textColor="@color/gray_dark"
+                            android:textColorHint="@color/gray_light"
+                            android:textSize="18sp"
+                            android:background="@drawable/txt_click"
+                            />
+
+                        <TextView
+                            style="@style/TxtTitleGraySmall"
+                            android:layout_width="match_parent"
+                            android:layout_height="55dp"
+                            android:text="开完工许可部门:" />
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dip"
+                        android:background="@drawable/list_divider"
+                        android:layout_marginBottom="50dp"/>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/commit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_margin="5dp"
+                android:background="@drawable/btn_blue"
+                android:text="创建计划"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
+

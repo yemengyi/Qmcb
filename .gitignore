@@ -1,0 +1,14 @@
+*.iml
+.gradle
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+.DS_Store
+/captures
+AppMsg/build/
+AndBase/build/
+superadapter/build/
+roundedimageview/build/
+.idea/
+superadapter/
+appmsg/build/

@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="5dip">
+    <TextView
+        android:id="@+id/left"
+        style="@style/TxtTitleGraySmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dip"
+        android:text="工程编号:"
+        android:visibility="invisible"/>
+    <LinearLayout
+        android:id="@+id/lay01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/TxtTitleGraySmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dip"
+            android:text="工程编号:" />
+
+        <TextView
+            android:id="@+id/pro_id"
+            style="@style/TxtTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dip"
+            android:text="100000" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lay02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/lay01"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/TxtTitleGraySmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dip"
+            android:text="计划月份:" />
+
+        <TextView
+            android:id="@+id/yf"
+            style="@style/TxtTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dip"
+            android:text="201601" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_below="@+id/lay01"
+        android:layout_toRightOf="@+id/left"
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="@drawable/list_divider"
+        android:focusable="false"
+        android:focusableInTouchMode="false" />
+
+    <LinearLayout
+        android:id="@+id/lay03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lay02"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/TxtTitleGraySmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dip"
+            android:text="开始时间:" />
+
+        <TextView
+            android:id="@+id/kssj"
+            style="@style/TxtTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dip"
+            android:text="2016-01-18 07:09" />
+    </LinearLayout>
+    <View
+        android:layout_below="@+id/lay03"
+        android:layout_toRightOf="@+id/left"
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="@drawable/list_divider"
+        android:focusable="false"
+        android:focusableInTouchMode="false" />
+    <LinearLayout
+        android:id="@+id/lay04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lay03"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/TxtTitleGraySmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dip"
+            android:text="结束时间:" />
+
+        <TextView
+            android:id="@+id/jssj"
+            style="@style/TxtTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dip"
+            android:text="2016-01-18 07:09" />
+    </LinearLayout>
+    <View
+        android:layout_below="@+id/lay04"
+        android:layout_toRightOf="@+id/left"
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="@drawable/list_divider"
+        android:focusable="false"
+        android:focusableInTouchMode="false" />
+    <LinearLayout
+        android:id="@+id/lay05"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lay04"
+        android:orientation="horizontal">
+        <TextView
+            style="@style/TxtTitleGraySmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dip"
+            android:text="工作内容:" />
+
+        <TextView
+            android:id="@+id/nr"
+            style="@style/TxtTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dip"
+            android:text="维修电线杆和线路,从通道为一直加载和增加电流承载能力" />
+    </LinearLayout>
+    <View
+        android:layout_below="@+id/lay05"
+        android:layout_toRightOf="@+id/left"
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="@drawable/list_divider"
+        android:focusable="false"
+        android:focusableInTouchMode="false" />
+    <LinearLayout
+        android:id="@+id/lay06"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lay05"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/TxtTitleGraySmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dip"
+            android:text="工作地点:" />
+
+        <TextView
+            android:id="@+id/dz"
+            style="@style/TxtTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dip"
+            android:text="赣榆区新城" />
+    </LinearLayout>
+    <View
+        android:layout_below="@+id/lay06"
+        android:layout_toRightOf="@+id/left"
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="@drawable/list_divider"
+        android:focusable="false"
+        android:focusableInTouchMode="false" />
+    <LinearLayout
+        android:id="@+id/lay07"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lay06"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/TxtTitleGraySmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dip"
+            android:text="施工队伍:" />
+
+        <TextView
+            android:id="@+id/dw"
+            style="@style/TxtTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dip"
+            android:text="呵呵呵呵呵\呵呵" />
+    </LinearLayout>
+    <View
+        android:layout_below="@+id/lay07"
+        android:layout_toRightOf="@+id/left"
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="@drawable/list_divider"
+        android:focusable="false"
+        android:focusableInTouchMode="false" />
+    <LinearLayout
+        android:id="@+id/lay08"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lay07"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/TxtTitleGraySmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dip"
+            android:text="到岗到位:" />
+
+        <TextView
+            android:id="@+id/ry"
+            style="@style/TxtTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dip"
+            android:text="呵呵呵呵呵\呵呵" />
+    </LinearLayout>
+    <View
+        android:layout_below="@+id/lay08"
+        android:layout_toRightOf="@+id/left"
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="@drawable/list_divider"
+        android:focusable="false"
+        android:focusableInTouchMode="false" />
+    <LinearLayout
+        android:id="@+id/lay09"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lay08"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                style="@style/TxtTitleGraySmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dip"
+                android:text="创建人员:" />
+
+            <TextView
+                android:id="@+id/createuername"
+                style="@style/TxtTitleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dip"
+                android:text="一个人" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                style="@style/TxtTitleGraySmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dip"
+                android:text="创建时间:" />
+
+            <TextView
+                android:id="@+id/createtime"
+                style="@style/TxtTitleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dip"
+                android:text="2016-01-20 10:05" />
+        </LinearLayout>
+
+    </LinearLayout>
+    <View
+        android:layout_below="@+id/lay09"
+        android:layout_toRightOf="@+id/left"
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="@drawable/list_divider"
+        android:focusable="false"
+        android:focusableInTouchMode="false" />
+
+
+</RelativeLayout>

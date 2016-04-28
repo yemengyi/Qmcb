@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.gongdian.qmcb">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="com.android.browser.permission.READ_HISTORY_BOOKMARKS" />
+    <uses-permission android:name="com.android.browser.permission.WRITE_HISTORY_BOOKMARKS" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.GET_PACKAGE_SIZE" />
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.REORDER_TASKS" />
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+    <!-- <uses-permission android:name="android.permission.INSTALL_PACKAGES" /> -->
+    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+    <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" />
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+
+
+    <!--<uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" />-->
+    <application
+        android:name=".utils.MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_icon"
+        android:supportsRtl="true"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+
+
+        <service
+            android:name="com.baidu.location.f"
+            android:enabled="true"
+            android:process=":remote">
+            <intent-filter>
+                <action android:name="com.baidu.location.service_v2.2">
+
+                </action>
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="jaB5TAekB3gUo5uUqdHtQUfFVKvgBIse" />
+
+        <!-- 可选 -->
+        <activity android:name="com.pgyersdk.activity.FeedbackActivity" />
+
+        <!-- 必选 -->
+        <meta-data
+            android:name="PGYER_APPID"
+            android:value="839e0b048ca500b9c770a58def9d56c9" >
+        </meta-data>
+
+        <activity
+            android:name=".activity.LauncherActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppStartLoad">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!--
+        <activity
+            android:name=".activity.LauncherActivity"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.AppStartLoad">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        -->
+
+
+        <!-- <activity android:name=".activity.LauncherActivity" /> -->
+        <activity android:name=".activity.MainActivity"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".activity.RegisterActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".permission.MainActivity2"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name=".activity.AboutActivity"
+            android:theme="@style/ThemeActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.admin.DepartmentActivity"
+            android:theme="@style/ThemeActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.admin.UsersActivity"
+            android:theme="@style/ThemeActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.admin.RollActivity"
+            android:theme="@style/ThemeActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.photo.AddPhotoActivity"
+            android:theme="@style/ThemeActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.project.AddProjectActivity"
+            android:theme="@style/ThemeActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan"/>
+        <activity
+            android:name=".activity.project.ShowProjectByMenuActivity"
+            android:theme="@style/ThemeActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.project.ShowAllProject"
+            android:theme="@style/ThemeActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.project.ProjectInfo"
+            android:theme="@style/ThemeActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.project.ModifyProjectlActivity"
+            android:theme="@style/ThemeActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan"/>
+        <activity
+            android:name=".activity.project.AddProjectPhotoActivity"
+            android:theme="@style/ThemeActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".activity.photo.CropImageActivity" />
+        <activity
+            android:name=".activity.photo.ShowPhotoActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.photo.ShowPhotoListActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.profile.MineActivity"
+            android:theme="@style/ThemeActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.project.MineProject"
+            android:theme="@style/ThemeActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.baidu.BaiduMapShowPhoto"
+            android:theme="@style/ThemeActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.baidu.BaiduMapShowTask"
+            android:theme="@style/ThemeActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.project.ShowSpProject"
+            android:theme="@style/ThemeActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.SendMsgActivity"
+            android:theme="@style/ThemeActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.ChooseActivity"
+            android:theme="@style/ThemeActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.profile.PublicityActivity"
+            android:theme="@style/ThemeActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.photo.YxcPhotoActivity"
+            android:theme="@style/ThemeActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.photo.QdActivity"
+            android:theme="@style/ThemeActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.project.ShowQdActivity"
+            android:theme="@style/ThemeActivity"
+            android:screenOrientation="portrait"/>
+
+
+        <!-- <service -->
+        <!-- android:name=".service.UpdataService" -->
+        <!-- android:enabled="true" -->
+        <!-- android:exported="true"> -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="UpdataService" /> -->
+        <!-- </intent-filter> -->
+        <!-- </service> -->
+
+        <service
+            android:name=".service.UpdataService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <!-- <receiver -->
+        <!-- android:name=".DownloadCompleteReceiver"> -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="android.intent.action.DOWNLOAD_COMPLETE" /> -->
+        <!-- </intent-filter> -->
+        <!-- </receiver> -->
+
+        <activity
+            android:name=".activity.baidu.baiduActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="sensor"
+            android:theme="@style/ThemeActivity"/>
+
+        <activity
+            android:name=".activity.baidu.LocationActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="sensor"
+            android:theme="@style/ThemeActivity"/>
+
+    </application>
+
+</manifest>

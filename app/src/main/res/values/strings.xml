@@ -1,0 +1,110 @@
+<resources>
+    <string name="app_name">全民参保登记</string>
+    <string name="app_permission_title">权限管理</string>
+    <string name="action_settings">设置</string>
+    <string name="only_num">只能是数字</string>
+    <string name="only_char">只能是字母</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_test">TestActivity</string>
+
+    <string name="ok">OK</string>
+    <string name="contacts_string">Total number of contacts: %1$,d\nFirst contact:<b>%2$s</b></string>
+    <string name="contacts_none">No contacts stored on device.</string>
+    <string name="contacts_empty">Contacts not loaded.</string>
+    <string name="add_contact">Add a contact</string>
+    <string name="show_contact">Show first contact</string>
+    <string name="contacts_intro">系统授权管理,请打开以下授权,否则系统将不能正常运行.</string>
+    <string name="camera_unavailable"><b>Camera could not be opened.</b>\nThis occurs when the camera is not available (for example it is already in use) or if the system has denied access (for example when camera access has been disabled).</string>
+    <string name="back">Back</string>
+
+    <string name="show_all">开启以下全部权限</string>
+    <string name="show_camera">开启相机权限</string>
+    <string name="show_contacts">开启通讯录权限</string>
+    <string name="show_location">开启GPS权限</string>
+    <string name="show_storage">开启存储管理权限</string>
+
+
+    <string name="main_introduction">点击以下按钮开启权限</string>
+    <string name="permision_available_camera">相机 已经被授权,或授权成功.</string>
+    <string name="permision_available_contacts">通讯录 已经被授权,或授权成功.</string>
+    <string name="permissions_not_granted">没有被授权,或授权失败.</string>
+    <string name="permissions_granted">已被授权,或授权成功.</string>
+
+    <string name="permissions_location_granted">GPS 已被授权,或授权成功.</string>
+    <string name="permissions_camera_granted">相机 已经被授权,或授权成功.</string>
+    <string name="permissions_contacts_granted">通讯录 已经被授权,或授权成功.</string>
+    <string name="permissions_storage_granted">存储管理 已被授权,或授权成功.</string>
+    <string name="permissions_impotent_granted">以上权限都已被授权,或授权成功.</string>
+
+    <string name="permission_camera_rationale">请开启相机使用授权</string>
+    <string name="permission_contacts_rationale">请开启通讯录使用授权</string>
+    <string name="permission_important_rationale">请开启通讯录读取写入授权</string>
+    <string name="permission_location_rationale">请开启GPS授权</string>
+    <string name="permission_storage_rationale">请开存储管理授权</string>
+
+    <string name="sample_show_log">查看</string>
+    <string name="sample_hide_log">隐藏</string>
+      <string name="intro_message">
+          系统授权管理,请打开以下授权,否则系统将不能正常运行:\n
+          1:相机授权\n
+          2:GPS授权\n
+          3:存储系统授权\n
+    </string>
+
+    <string name="photo_add_name">拍照</string>
+
+    <!--baidumap-->
+    <string name="menu_zoom_enable">Enable Zoom</string>
+    <string name="menu_zoom_disable">Disable Zoom</string>
+    <string name="menu_scale_fit_center">Change to FIT_CENTER</string>
+    <string name="menu_scale_fit_start">Change to FIT_START</string>
+    <string name="menu_scale_fit_end">Change to FIT_END</string>
+    <string name="menu_scale_fit_xy">Change to FIT_XY</string>
+    <string name="menu_scale_center">Change to CENTER</string>
+    <string name="menu_scale_center_inside">Change to CENTER_INSIDE</string>
+    <string name="menu_scale_center_crop">Change to CENTER_CROP</string>
+    <string name="title_activity_baidu">baiduActivity</string>
+
+    <string name="startlocation">开启定位</string>
+    <string name="stoplocation">停止定位</string>
+    <string name="error_code_desc">错误码说明</string>
+    <string name="qa_title">常见问题</string>
+    <string name="hight_accuracy_desc">高精度定位模式下，会同时使用GPS、Wifi和基站定位，返回的是当前条件下精度最好的定位结果</string>
+    <string name="saving_battery_desc">低功耗定位模式下，仅使用网络定位即Wifi和基站定位，返回的是当前条件下精度最好的网络定位结果</string>
+    <string name="device_sensor_desc">仅用设备定位模式下，只使用用户的GPS进行定位。这个模式下，由于GPS芯片锁定需要时间，首次定位速度会需要一定的时间</string>
+    <string name="error_code_detail"> 61 ： GPS定位结果\n
+		62 ： 扫描整合定位依据失败。此时定位结果无效。\n
+		63 ： 网络异常，没有成功向服务器发起请求。此时定位结果无效。\n
+		65 ： 定位缓存的结果。\n
+		66 ： 离线定位结果。通过requestOfflineLocaiton调用时对应的返回结果\n
+		67 ： 离线定位失败。通过requestOfflineLocaiton调用时对应的返回结果\n
+		68 ： 网络连接失败时，查找本地离线定位时对应的返回结果\n
+		161： 表示网络定位结果\n
+		162~167： 服务端定位失败\n
+		502：key参数错误\n
+		505：key不存在或者非法\n
+		601：key服务被开发者自己禁用\n
+		602：key mcode不匹配\n
+		501～700：key验证失败\n</string>
+    <string name="qa_callback">问题反馈方法</string>
+    <string name="qa_callback_mail">mapapi@baidu.com</string>
+
+    <string name="alert">Alert</string>
+    <string name="confirm">Confirm</string>
+    <string name="info">Info</string>
+    <string name="custom">Custom</string>
+    <string name="sticky">Sticky</string>
+    <string name="bottom">Show at bottom of screen</string>
+    <string name="remove">Remove</string>
+    <string name="cancel_all">Cancel All</string>
+    <string name="high">High</string>
+    <string name="normal">Normal</string>
+    <string name="low">Low</string>
+    <string name="show_appmsg">Show AppMsg!</string>
+    <string name="style">Style</string>
+    <string name="priority">Priority</string>
+    <string name="your_message_here">Your message here</string>
+    <string name="custom_parent">Custom parent</string>
+
+
+</resources>

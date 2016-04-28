@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:descendantFocusability="blocksDescendants"
+    android:gravity="center_vertical"
+    android:minHeight="60dp"
+    android:padding="5dp">
+
+
+    <TextView
+        android:id="@+id/child_title"
+        style="@style/TxtTitleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableRight="@drawable/right"
+        android:gravity="left"
+        android:singleLine="false"
+        android:text="什么什么" />
+
+
+    <TextView
+        android:id="@+id/qsp"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/text_shape"
+        android:gravity="center"
+        android:text="审"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/sp"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/text_shape_blue"
+        android:gravity="center"
+        android:text="过"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/sfgs"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/text_shape_green"
+        android:gravity="center"
+        android:text="公"
+        android:textColor="@color/gray_dark"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+
+
+
+</RelativeLayout>

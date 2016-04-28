@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="5dip">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_below="@+id/lay09"
+        android:gravity="right">
+        <Button
+            android:id="@+id/btn202"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/btn_red"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="勘查"
+            android:visibility="gone"/>
+        <Button
+            android:id="@+id/btn203"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/btn_red"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="开工"
+            android:visibility="gone"/>
+        <Button
+            android:id="@+id/btn204"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/btn_red"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="到岗"
+            android:visibility="gone"/>
+        <Button
+            android:id="@+id/btn205"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/btn_red"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="督察"
+            android:visibility="gone"/>
+        <Button
+            android:id="@+id/btn206"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/btn_red"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="完工"
+            android:visibility="gone"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/right"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/left"
+        style="@style/TxtTitleGraySmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dip"
+        android:text="工作编号:"
+        android:visibility="invisible"/>
+    <LinearLayout
+        android:id="@+id/lay01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/TxtTitleGraySmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dip"
+            android:text="工程编号:" />
+
+        <TextView
+            android:id="@+id/pro_id"
+            style="@style/TxtTitleSmall"
+            android:textColor="@color/gray_dark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dip"
+            android:text="100000" />
+    </LinearLayout>
+
+
+    <View
+        android:layout_below="@+id/lay01"
+        android:layout_toRightOf="@+id/left"
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="@drawable/list_divider"
+        android:focusable="false"
+        android:focusableInTouchMode="false" />
+
+
+
+    <LinearLayout
+        android:id="@+id/lay021"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lay01"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/TxtTitleGraySmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dip"
+            android:text="项目名称:" />
+
+        <TextView
+            android:id="@+id/mc"
+            style="@style/TxtTitleSmall"
+            android:textColor="@color/red"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dip"
+            android:text="什么什么段的维修" />
+    </LinearLayout>
+    <View
+        android:layout_below="@+id/lay021"
+        android:layout_toRightOf="@+id/left"
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="@drawable/list_divider"
+        android:focusable="false"
+        android:focusableInTouchMode="false" />
+
+
+
+
+    <LinearLayout
+        android:id="@+id/lay03"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lay021"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/TxtTitleGraySmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dip"
+            android:text="工作时间:" />
+
+        <TextView
+            android:id="@+id/kssj"
+            style="@style/TxtTitleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dip"
+            android:text="2016-01-18 07:09"
+            android:textColor="@color/colorPrimaryDark"/>
+    </LinearLayout>
+    <View
+        android:layout_below="@+id/lay03"
+        android:layout_toRightOf="@+id/left"
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="@drawable/list_divider" />
+
+
+
+
+    <LinearLayout
+        android:id="@+id/lay05"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lay03"
+        android:orientation="horizontal">
+        <TextView
+            style="@style/TxtTitleGraySmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dip"
+            android:text="工作内容:" />
+
+        <TextView
+            android:id="@+id/nr"
+            style="@style/TxtTitleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dip"
+            android:textColor="@color/gray_dark"
+            android:text="维修电线杆和线路,从通道为一直加载和增加电流承载能力" />
+    </LinearLayout>
+    <View
+        android:layout_below="@+id/lay05"
+        android:layout_toRightOf="@+id/left"
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="@drawable/list_divider" />
+
+    <LinearLayout
+        android:id="@+id/lay06"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lay05"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/TxtTitleGraySmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dip"
+            android:text="工作地点:" />
+
+        <TextView
+            android:id="@+id/dz"
+            style="@style/TxtTitleSmall"
+            android:textColor="@color/gray_dark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dip"
+            android:text="赣榆区新城" />
+    </LinearLayout>
+    <View
+        android:layout_below="@+id/lay06"
+        android:layout_toRightOf="@+id/left"
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="@drawable/list_divider"
+        android:focusable="false"
+        android:focusableInTouchMode="false" />
+    <LinearLayout
+        android:id="@+id/lay07"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lay06"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/TxtTitleGraySmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dip"
+            android:text="施工队伍:" />
+
+        <TextView
+            android:id="@+id/dw"
+            style="@style/TxtTitleSmall"
+            android:textColor="@color/red"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dip"
+            android:text="呵呵呵呵呵\呵呵" />
+    </LinearLayout>
+    <View
+        android:layout_below="@+id/lay07"
+        android:layout_toRightOf="@+id/left"
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="@drawable/list_divider" />
+
+
+    <LinearLayout
+        android:id="@+id/lay071"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lay07"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/TxtTitleGraySmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dip"
+            android:text="许可部门:" />
+
+        <TextView
+            android:id="@+id/xk"
+            style="@style/TxtTitleSmall"
+            android:textColor="@color/gray_dark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dip"
+            android:text="呵呵呵呵呵\呵呵" />
+    </LinearLayout>
+    <View
+        android:layout_below="@+id/lay071"
+        android:layout_toRightOf="@+id/left"
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="@drawable/list_divider" />
+
+
+
+    <LinearLayout
+        android:id="@+id/lay08"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lay071"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/TxtTitleGraySmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dip"
+            android:text="到岗到位:" />
+
+        <TextView
+            android:id="@+id/ry"
+            style="@style/TxtTitleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dip"
+            android:text="呵呵呵呵呵\呵呵"
+            android:textColor="@color/gray_dark"
+            />
+    </LinearLayout>
+    <View
+        android:layout_below="@+id/lay08"
+        android:layout_toRightOf="@+id/left"
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="@drawable/list_divider"
+        android:focusable="false"
+        android:focusableInTouchMode="false" />
+    <LinearLayout
+        android:id="@+id/lay09"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lay08"
+        android:orientation="horizontal">
+        <TextView
+            style="@style/TxtTitleGraySmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dip"
+            android:text="创建人员:" />
+
+        <TextView
+            android:id="@+id/createuername"
+            style="@style/TxtTitleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dip"
+            android:text="一个人"
+            android:textColor="@color/gray_dark"
+            />
+    </LinearLayout>
+    <View
+        android:layout_below="@+id/lay09"
+        android:layout_toRightOf="@+id/left"
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="@drawable/list_divider" />
+
+</RelativeLayout>

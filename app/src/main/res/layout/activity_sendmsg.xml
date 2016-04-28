@@ -1,0 +1,126 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <Button
+        android:id="@+id/commit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="5dip"
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="5dip"
+        android:background="@drawable/btn_blue"
+        android:text="发送短信通知"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:orientation="vertical">
+
+
+        <include
+            layout="@layout/space_view_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:id="@+id/lay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:focusable="true"
+            android:focusableInTouchMode="true">
+
+            <Button
+                android:id="@+id/choose"
+                android:layout_width="120dp"
+                android:layout_height="38dp"
+                android:background="@drawable/btn_red"
+                android:paddingBottom="8dip"
+                android:paddingLeft="5dip"
+                android:paddingTop="5dip"
+                android:text="选择部门或人员"
+                android:textColor="@color/white" />
+
+            <GridView android:id="@+id/gridView"
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="160dp"
+                android:layout_weight="1"
+                android:verticalSpacing="10dip"
+                android:horizontalSpacing="5dip"
+                android:gravity="fill"
+                android:numColumns="4">
+            </GridView>
+
+
+
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:background="@drawable/list_divider" />
+
+
+        <LinearLayout
+            android:id="@+id/r0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/TxtTitleGraySmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="8dip"
+                android:paddingLeft="5dip"
+                android:paddingTop="5dip"
+                android:text="短信内容:"
+                android:textColor="@color/gray_light" />
+
+
+            <EditText
+                android:id="@+id/nr"
+                style="@style/EditTextMulti"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/transparent"
+                android:enabled="true"
+                android:hint="(请输入)"
+                android:inputType="textMultiLine"
+                android:minLines="6"
+                android:textColor="@color/gray_dark"
+                android:textColorHint="@color/gray_light" />
+
+        </LinearLayout>
+
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:background="@drawable/list_divider" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btn_url"
+            android:layout_width="120dp"
+            android:layout_height="25dp"
+            android:background="@drawable/btn_red"
+            android:layout_alignParentRight="true"
+            android:text="+软件下载地址"
+            android:gravity="center"
+            android:textColor="@color/white"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+</RelativeLayout>

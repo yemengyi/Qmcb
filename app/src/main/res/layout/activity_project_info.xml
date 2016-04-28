@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <CheckBox
+        android:id="@+id/checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_above="@+id/commit"
+        android:text="是否公示"
+        android:textSize="18sp"
+        android:textColor="@color/red"
+        android:enabled="true"
+        android:checked="true"
+        />
+
+    <Button
+        android:id="@+id/commit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/noCommit"
+        android:layout_marginBottom="5dip"
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="5dip"
+        android:background="@drawable/btn_blue"
+        android:text="审核通过"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:enabled="true"/>
+
+    <Button
+        android:id="@+id/noCommit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="5dip"
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="5dip"
+        android:background="@drawable/btn_red"
+        android:text="审核不通过"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:enabled="true"/>
+
+
+    <ListView
+        android:layout_below="@+id/title"
+        android:id="@+id/mListView"
+        android:layout_above="@+id/checkbox"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cacheColorHint="#00000000"
+        android:divider="@color/gray_white"
+        android:dividerHeight="10dp"
+        android:fillViewport="true"
+        android:listSelector="@drawable/list_selector"
+        />
+    <!--descendantFocusability-该属性是当一个为view获取焦点时，定义viewGroup和其子控件两者之间的关系。-->
+    <!--属性的值有三种：-->
+    <!--beforeDescendants：viewgroup会优先其子类控件而获取到焦点-->
+    <!--afterDescendants：viewgroup只有当其子类控件不需要获取焦点时才获取焦点-->
+    <!--blocksDescendants：viewgroup会覆盖子类控件而直接获得焦点-->
+
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_horizontal|top"
+        android:layout_alignParentTop="true"
+        android:background="@color/gray_white"
+        android:textSize="14sp"
+        android:textColor="@color/colorPrimaryDark"
+        />
+</RelativeLayout>
