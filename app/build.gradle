@@ -10,7 +10,7 @@ android {
         }
     }
     compileSdkVersion 23
-    buildToolsVersion "23.0.2"
+    buildToolsVersion "23.0.3"
     defaultConfig {
         applicationId 'com.gongdian.qmcb'
         minSdkVersion 14
@@ -26,9 +26,9 @@ android {
             signingConfig signingConfigs.config
         }
         debug {
-            signingConfig signingConfigs.config
             minifyEnabled false
             zipAlignEnabled true
+            signingConfig signingConfigs.config
         }
     }
     android.applicationVariants.all { variant ->
@@ -52,7 +52,6 @@ android {
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     testCompile 'junit:junit:4.12'
-    compile 'com.android.support:design:23.1.1'
     compile project(':AndBase')
     compile project(':AppMsg')
     compile files('libs/library.jar')
@@ -65,6 +64,6 @@ dependencies {
     compile files('libs/locSDK_6.13.jar')
     compile files('libs/pgyer_sdk_2.2.2.jar')
     compile project(':roundedimageview')
-    compile files('libs/hyphenatechat_3.0.0.jar')
     compile project(':alertview')
+    compile 'com.android.support:design:23.3.0'
 }

@@ -1,2 +1,173 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
+
+    <item
+        jar="/Users/qian-pc/AndroidStudioProjects/qmcb/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="8a034dd16c0dfd75fe86c52c2cd581592acc684a">
+        <dex dex="/Users/qian-pc/AndroidStudioProjects/qmcb/app/build/intermediates/pre-dexed/release/com.android.support-support-v4-23.3.0_5af05367ed5dc0a6e79b1d4158b404f1324844ed.jar" />
+    </item>
+    <item
+        jar="/Users/qian-pc/AndroidStudioProjects/qmcb/app/libs/baidumapapi_map_v3_6_1.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="23ebff6260f4903de73a88f877f7c32025205c53">
+        <dex dex="/Users/qian-pc/AndroidStudioProjects/qmcb/app/build/intermediates/pre-dexed/release/baidumapapi_map_v3_6_1_6cbc657e6a357178dc5368817cf423bbbe8c62a0.jar" />
+    </item>
+    <item
+        jar="/Users/qian-pc/AndroidStudioProjects/qmcb/app/libs/baidumapapi_radar_v3_6_1.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="1798aaeab5d68706f7e5be9399590f1b41df5053">
+        <dex dex="/Users/qian-pc/AndroidStudioProjects/qmcb/app/build/intermediates/pre-dexed/release/baidumapapi_radar_v3_6_1_52bb5874ab18ab857a0e43580aaf23d6a5779a5b.jar" />
+    </item>
+    <item
+        jar="/Users/qian-pc/AndroidStudioProjects/qmcb/app/libs/baidumapapi_search_v3_6_1.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="ae35daa343eece79419b1491c64ffe84c3707c50">
+        <dex dex="/Users/qian-pc/AndroidStudioProjects/qmcb/app/build/intermediates/pre-dexed/release/baidumapapi_search_v3_6_1_a9dfb9b6f17c270b0b33342f68e74ca3babebd7d.jar" />
+    </item>
+    <item
+        jar="/Users/qian-pc/AndroidStudioProjects/qmcb/app/libs/pgyer_sdk_2.2.2.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="9d257f78eb7f532da7850ccaf1b14555221ab8b0">
+        <dex dex="/Users/qian-pc/AndroidStudioProjects/qmcb/app/build/intermediates/pre-dexed/release/pgyer_sdk_2.2.2_31fe7cfacaf74d27ebac30064c669390f64f5df0.jar" />
+    </item>
+    <item
+        jar="/Users/qian-pc/AndroidStudioProjects/qmcb/app/build/intermediates/exploded-aar/com.bigkoo/alertview/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="104d2f93a9551b9a960c87d9752c4d3d5f09f0df">
+        <dex dex="/Users/qian-pc/AndroidStudioProjects/qmcb/app/build/intermediates/pre-dexed/release/com.bigkoo-alertview-1.0.1_176a0c371371ba01c7db806b5305d0dd563a0b5c.jar" />
+    </item>
+    <item
+        jar="/Users/qian-pc/AndroidStudioProjects/qmcb/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/jars/libs/internal_impl-23.3.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="4da5a4d697d32497c6f85567a5112e62fdfd0676">
+        <dex dex="/Users/qian-pc/AndroidStudioProjects/qmcb/app/build/intermediates/pre-dexed/release/internal_impl-23.3.0_8fe2302adb2ac108bd9313cb928dd392f2ac9b7a.jar" />
+    </item>
+    <item
+        jar="/Users/qian-pc/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.3.0/support-annotations-23.3.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="db7791d75a07fef9844d06236c1c59ba7bf6997c">
+        <dex dex="/Users/qian-pc/AndroidStudioProjects/qmcb/app/build/intermediates/pre-dexed/release/support-annotations-23.3.0_d15ed21c26e43c04011cec70143100a4c110a767.jar" />
+    </item>
+    <item
+        jar="/Users/qian-pc/AndroidStudioProjects/qmcb/app/build/intermediates/exploded-aar/qmcb/AndBase/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="54745f0decab7722dc924ccfad236b804c253915">
+        <dex dex="/Users/qian-pc/AndroidStudioProjects/qmcb/app/build/intermediates/pre-dexed/release/qmcb-AndBase-unspecified_7d5b7cd627a474c2d35aea0559075c99698556a9.jar" />
+    </item>
+    <item
+        jar="/Users/qian-pc/AndroidStudioProjects/qmcb/app/build/intermediates/exploded-aar/com.android.support/design/23.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="f0001e71cea6ae432a00021c6f727f5ef0f3d27e">
+        <dex dex="/Users/qian-pc/AndroidStudioProjects/qmcb/app/build/intermediates/pre-dexed/release/com.android.support-design-23.3.0_7472328904505f8f173f195371cad405fe275e8d.jar" />
+    </item>
+    <item
+        jar="/Users/qian-pc/AndroidStudioProjects/qmcb/app/libs/locSDK_6.13.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="89074d1026c4938136ae6922ac9e7b0130dc27d4">
+        <dex dex="/Users/qian-pc/AndroidStudioProjects/qmcb/app/build/intermediates/pre-dexed/release/locSDK_6.13_6759bc145e181fabfcdb0c6879679976bdc86cb1.jar" />
+    </item>
+    <item
+        jar="/Users/qian-pc/AndroidStudioProjects/qmcb/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="1b8e03daaa43fb0a4cd57e378167c2fd70454c1e">
+        <dex dex="/Users/qian-pc/AndroidStudioProjects/qmcb/app/build/intermediates/pre-dexed/release/com.android.support-appcompat-v7-23.3.0_0f077a50941b46b63aa6b6bbb5cf7dc1c15ab03e.jar" />
+    </item>
+    <item
+        jar="/Users/qian-pc/AndroidStudioProjects/qmcb/app/build/intermediates/exploded-aar/qmcb/AppMsg/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="f7c13453568f69a82b5e4ba6b265c6946cbd8eae">
+        <dex dex="/Users/qian-pc/AndroidStudioProjects/qmcb/app/build/intermediates/pre-dexed/release/qmcb-AppMsg-unspecified_226a9c4d9530f7b105a2accd5a9f78ab7ef65e90.jar" />
+    </item>
+    <item
+        jar="/Users/qian-pc/AndroidStudioProjects/qmcb/app/build/intermediates/exploded-aar/com.android.support/support-v13/23.3.0/jars/libs/internal_impl-23.3.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="8813bdcf7583107c4873150075d17c8072ec50cf">
+        <dex dex="/Users/qian-pc/AndroidStudioProjects/qmcb/app/build/intermediates/pre-dexed/release/internal_impl-23.3.0_57c34b955d63cb68cba0de5568b045facfb4d55e.jar" />
+    </item>
+    <item
+        jar="/Users/qian-pc/AndroidStudioProjects/qmcb/app/build/intermediates/exploded-aar/qmcb/AndBase/unspecified/jars/libs/ksoap2-android-assembly-2.6.5-jar-with-dependencies.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="fedb432bc3f7748a81f9f282e860a2c517e5835e">
+        <dex dex="/Users/qian-pc/AndroidStudioProjects/qmcb/app/build/intermediates/pre-dexed/release/ksoap2-android-assembly-2.6.5-jar-with-dependencies_4de8f7fa5dfbc25997a78fc4c6cc5aaabb888feb.jar" />
+    </item>
+    <item
+        jar="/Users/qian-pc/AndroidStudioProjects/qmcb/app/libs/baidumapapi_util_v3_6_1.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="0f0b934deaefab0513860d85cd1f4bcd83fc1003">
+        <dex dex="/Users/qian-pc/AndroidStudioProjects/qmcb/app/build/intermediates/pre-dexed/release/baidumapapi_util_v3_6_1_378d325394e8e8a63600e9eaa4320446e686ade4.jar" />
+    </item>
+    <item
+        jar="/Users/qian-pc/AndroidStudioProjects/qmcb/app/build/intermediates/exploded-aar/com.android.support/support-v13/23.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="a809555a2599054c3dcd1bf82b089315ac3a11df">
+        <dex dex="/Users/qian-pc/AndroidStudioProjects/qmcb/app/build/intermediates/pre-dexed/release/com.android.support-support-v13-23.3.0_f48e3c275989bca5fc1210af33f02788bb181d68.jar" />
+    </item>
+    <item
+        jar="/Users/qian-pc/AndroidStudioProjects/qmcb/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="23be6993826b8fd88bbc8d14928bb3b8960d3d4e">
+        <dex dex="/Users/qian-pc/AndroidStudioProjects/qmcb/app/build/intermediates/pre-dexed/release/com.android.support-animated-vector-drawable-23.3.0_51c3fe8d2dda3e3bafc217b5807d9179b7ee715b.jar" />
+    </item>
+    <item
+        jar="/Users/qian-pc/AndroidStudioProjects/qmcb/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="debf30ce0a7560396b6235edef77e447006454c2">
+        <dex dex="/Users/qian-pc/AndroidStudioProjects/qmcb/app/build/intermediates/pre-dexed/release/com.android.support-recyclerview-v7-23.3.0_f91a710b676c71d91b09e8c679b814737910aae0.jar" />
+    </item>
+    <item
+        jar="/Users/qian-pc/AndroidStudioProjects/qmcb/app/libs/library.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="46478fdc5b85f7457767d5786149008353238bbd">
+        <dex dex="/Users/qian-pc/AndroidStudioProjects/qmcb/app/build/intermediates/pre-dexed/release/library_d87d4b5ebc64b1bf39353f947d528d6aa8d1a4a2.jar" />
+    </item>
+    <item
+        jar="/Users/qian-pc/AndroidStudioProjects/qmcb/app/build/intermediates/exploded-aar/qmcb/roundedimageview/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="4cd7285205afe413f68e8f3366d9a6822c2c414b">
+        <dex dex="/Users/qian-pc/AndroidStudioProjects/qmcb/app/build/intermediates/pre-dexed/release/qmcb-roundedimageview-unspecified_1d1787d8e9872d307de5d8a16530dd8961693981.jar" />
+    </item>
+    <item
+        jar="/Users/qian-pc/AndroidStudioProjects/qmcb/app/libs/baidumapapi_base_v3_6_1.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="683a7fe2d903826fc8ff46832b0be142d4b6576d">
+        <dex dex="/Users/qian-pc/AndroidStudioProjects/qmcb/app/build/intermediates/pre-dexed/release/baidumapapi_base_v3_6_1_3ce446dad8a5fbe98ce1842e10db24d18781e725.jar" />
+    </item>
+    <item
+        jar="/Users/qian-pc/AndroidStudioProjects/qmcb/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="a0b5d60246cd9d4f3f2443611b3b4c25265840b5">
+        <dex dex="/Users/qian-pc/AndroidStudioProjects/qmcb/app/build/intermediates/pre-dexed/release/com.android.support-support-vector-drawable-23.3.0_fa7fde5897f0d3825ee70bc9fd3db0b18d806e50.jar" />
+    </item>
+    <item
+        jar="/Users/qian-pc/AndroidStudioProjects/qmcb/app/libs/baidumapapi_cloud_v3_6_1.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="387e4f255e65a144c164e3c67a794e9ad2445c2d">
+        <dex dex="/Users/qian-pc/AndroidStudioProjects/qmcb/app/build/intermediates/pre-dexed/release/baidumapapi_cloud_v3_6_1_ac3dc897c07a6628e05c5fb46c1a1e3a335cdc10.jar" />
+    </item>
+
+</items>
